@@ -40,3 +40,5 @@ The following **stretch** user stories are implemented:
 The following **additional** user stories are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+
+https://imgflip.com/gif/2f790w

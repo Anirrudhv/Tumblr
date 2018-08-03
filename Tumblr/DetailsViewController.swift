@@ -8,19 +8,29 @@
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class DetailsViewController: UIViewController,UIScrollViewDelegate {
 
+    @IBOutlet weak var overviewtext: UILabel!
+    var post :URL!
+    var overview:String!
+    @IBOutlet weak var DetailImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        DetailImage.af_setImage(withURL: post)
+        print(overview)
+        overviewtext.text = overview
+       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        overviewtext.text = overview
+    }
     
+   
 
     /*
     // MARK: - Navigation

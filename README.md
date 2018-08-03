@@ -20,7 +20,7 @@ The following **additional** user stories are implemented:
 - [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
 
 # Lab 2 - Tumblr
-
+<a href="https://imgflip.com/gif/2f79lg"><img src="https://i.imgflip.com/2f79lg.gif" title="made at imgflip.com"/></a>
 
 
 Time spent: 2 hours spent in total
